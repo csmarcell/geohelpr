@@ -3,8 +3,8 @@ function navbar() {
 
     placeholder.innerHTML = `
         <nav class="navbar">
-            <a href="index.html">
-                <img src="/source/img/logo.png" alt="Logo" class="logo" id="logo" />
+            <a href="../index.html">
+                <img src="../source/img/logo.png" alt="Logo" class="logo" id="logo" />
             </a>
 
             <div class="hamburger">
@@ -14,13 +14,13 @@ function navbar() {
             </div>
 
             <ul class="menu">
-                <li class="item"><a href="/html/basics.html">Alapok</a></li>
-                <li class="item"><a href="/html/bollards.html">Vezetőoszlopok</a></li>
-                <li class="item"><a href="/html/cars.html">Google autók</a></li>
-                <li class="item"><a href="/html/roadlines.html">Útfestések</a></li>
-                <li class="item"><a href="/html/poles.html">Villanyoszlopok</a></li>
-                <li class="item"><a href="/html/quiz.html">Quiz</a></li>
-                <li class="item"><a href="newmeta.html">Új Meta Beküldése</a></li>
+                <li class="item"><a href="../html/basics.html">Alapok</a></li>
+                <li class="item"><a href="../html/bollards.html">Vezetőoszlopok</a></li>
+                <li class="item"><a href="../html/cars.html">Google autók</a></li>
+                <li class="item"><a href="../html/roadlines.html">Útfestések</a></li>
+                <li class="item"><a href="../html/poles.html">Villanyoszlopok</a></li>
+                <li class="item"><a href="../html/quiz.html">Quiz</a></li>
+                <li class="item"><a href="../html/newmeta.html">Új Meta Beküldése</a></li>
 
                 <li class="item button-item">
                     <a href="https://www.geoguessr.com/" target="_blank">
@@ -33,7 +33,6 @@ function navbar() {
 }
 
 navbar()
-
 
 function footer(){
     const placeholder = document.getElementById("footer-placeholder")
