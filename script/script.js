@@ -1,7 +1,7 @@
 function navbar() {
     const placeholder = document.getElementById("navbar-placeholder");
-
-    placeholder.innerHTML = `
+    if(placeholder){
+        placeholder.innerHTML = `
         <nav class="navbar">
             <a href="../index.html">
                 <img src="../source/img/logo.png" alt="Logo" class="logo" id="logo" />
@@ -30,6 +30,7 @@ function navbar() {
             </ul>
         </nav>
     `;
+    }
 }
 
 navbar()
