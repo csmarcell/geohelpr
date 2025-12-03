@@ -1,6 +1,6 @@
 A weboldalt készítette: Csécsényi Marcell
 
-A weboldal url címe:
+A weboldal url címe: https://csmarcell.github.io/geohelpr/
 
 A weboldal témája: Az oldal a Geoguessr nevű online játék kezdő és haladó játékosainak egyaránt igyekszik segítséget nyújtani.
                     Ezt ország specifikus tulajdonságok, úgynevezett 'meta'-k összegyűjtésével teszi, így könnyítve azok megtanulását.
