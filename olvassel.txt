@@ -1,0 +1,62 @@
+A weboldalt készítette: Csécsényi Marcell
+
+A weboldal url címe:
+
+A weboldal témája: Az oldal a Geoguessr nevű online játék kezdő és haladó játékosainak egyaránt igyekszik segítséget nyújtani.
+                    Ezt ország specifikus tulajdonságok, úgynevezett 'meta'-k összegyűjtésével teszi, így könnyítve azok megtanulását.
+
+Javascript:
+    script.js:
+        Hely: GeoHelpr/script/script.js
+        Működése: A script.js a navbar betöltésével kezdődik.
+        Template literal-ban van megadva a hmtl kód, ezt tölti be a placeholder helyére.
+        Ezután következik a footer, amit ugyan ilyen módszerrel tölt be.
+        A hamburger függvény a mobil nézetes menü hamburger megjelenítő gombjának működéséért felel.
+        Kiválasztja az összes hamburger osztályú elemet, majd kattintásra aktívvá teszi, ezzel megjelenítve a menüpontokat.
+        Egy menüpontra kattintáskor az active osztályokat eltávolítja, ezzel a menüsor eltűnik.
+        A loadData függvény először fetch-eli a json-okban eltárolt adatokat,
+        majd végigmegy az összes adaton és egy id-ra betölti azokat template literal használatával.
+        Az így létrehozott kártyákat hozzáadja a container-hez.
+        Az url szerint meghívjuk a loadData függvényt a megfelelő értékkel, ez biztosítja, hogy a megfelelő adattábla töltődik be.
+        Az űrlap validálásához először nullázzuk a hibaüzeneteket, majd minden bevitt adatot leellenőrzünk.
+        Ezután amennyiben létezik a form, meghívjuk a validálási függvényt, ha pedig minden adat megfelelő, a form elküldhető.
+
+    quiz.js:
+        Hely: GeoHelpr/script/quiz.js
+        Működése: A quiz.js-ben először deklaráljuk a változókat.
+        A gombhoz hozzáadjuk kattintás eventre a quiz függvényt.
+        A loadData függvény felel a kép és a válaszlehetőségek betöltéséért.
+        Sorson egy véletlen számot, majd az annak megfelelő json-t fetch-eli.
+        A függvény végén töröljük a válasz gombok korábbi tartalmát.
+        A Quiz függvény meghívja a loadData füvvényt.
+        Először megvizsgáljuk, hogy hányadik kérdésnél tart a játékos, és ahoz mérten változtatja a gomb tartalmát.
+        Megvizsgálja, ha a quiz nincs betöltve, betölti azt.
+        Nullázza a válasz gombok tartalmát, majd frissíti a kérdés számlálót.
+        Kiválasztja és helyére teszi a jó válasz indexéhez tartozó képet.
+        Egy 'answers' nevű listába beleteszi a jó válasz indexét, majd feltölti a maradék helyeket véletlen generált számokkal.
+        Ezután a listát megkeveri, hogy a válaszok véletlenszerűen legyenek elrendezve.
+        A jó válasz osztály listájához hozzáadja a "correct"-et, a rossz válaszokéból pedig kitörli.
+        Minden válaszlehetőséghez hozzáad kattintás eventre egy függvényt, ami a következőket teszi:
+        Megvizsgálja, hogy a játékos kattintott-e már az adott körben,
+        majd megnézi, hogy melyikre kattintott,
+        ezután, ha a jó választ választotta, annak háttérszínét zöldre állítja.
+        Ha nem jól válaszolt, a kattintott válasz háttérszínét pirosra, a jó válaszét zöldre állítja.
+        A válasz elemeket egymás alatt jeleníti meg.
+        Mindegyik válasz elemre meghívja az imént leírt színezés fuggvényt kattintás eventre.
+        Az egész quiz függvény végén növeljük a kérdés számlálót.
+
+        Végül meghívjuk a Quiz függvényt.
+        
+
+Egyedi fonttípus:
+    Név: Roboto
+    Hely: https://fonts.google.com/specimen/Roboto
+
+
+Külső források:
+    https://geometas.com/
+    https://www.geoguessr.com/
+    https://en.wikipedia.org/wiki/Left-_and_right-hand_traffic
+    https://www.w3schools.com/js/
+    https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css
+    

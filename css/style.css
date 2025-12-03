@@ -1,0 +1,655 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --fontColor: #234C6A;
+    --bgColor: white;
+    --navBg: rgba(255,255,255, 0.85);
+    --darkText: #333;
+    --cardBg: rgba(250, 250, 250, 0.85);
+}
+
+body {
+    color: var(--fontColor);
+    background-color: var(--bgColor);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+
+}
+
+
+/* --- NAVBAR ALAPBEÁLLÍTÁSOK --- */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--navBg);
+    backdrop-filter: blur(10px);    
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    font-size: larger;
+    height: 6em;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    display: block;
+    /* Fontos a helyes pozícionáláshoz */
+}
+
+/* --- MENÜ LISTA (ASZTALI NÉZET) --- */
+.menu {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: small;
+
+}
+
+.menu.active{
+    box-shadow: #d8d8d8 5px 5px 10px;
+}
+
+
+.item {
+    margin: 0 15px;
+
+}
+
+.item a{
+    display: inline-block;
+    text-decoration: none;
+    color: var(--fontColor);
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.1s;
+    
+}
+
+.item a:hover{
+    cursor: pointer;
+    box-shadow: #d8d8d8 5px 5px 10px;
+    border-radius: 10px;
+    
+}
+
+button {
+    background-color: var(--fontColor);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: var(--darkText);
+}
+
+
+/* --- TABLET NÉZET (Max 85em) --- */
+@media (max-width: 85em) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--navBg);
+        backdrop-filter: blur(10px);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 6em;
+    }
+
+    .hamburger {
+        display: block;
+        z-index: 100;
+    }
+
+
+    .menu {
+        position: fixed;
+        top: 7em;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        background-color: var(--navBg);
+        backdrop-filter: blur(10px);
+        text-align: center;
+        max-height: 0;
+        overflow: hidden;
+        border-radius: 0 0 20px 20px;
+        font-size: small;
+    }
+
+    .menu.active {
+        height: auto;
+        max-height: 100vh;
+
+    }
+
+    .item {
+        margin: 10px 0;
+    }
+
+    .item button {
+        width: 100%;
+    }
+
+    #cards{
+        justify-content: center;
+
+    }
+
+}
+
+
+#content {
+    margin-top: 7em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    padding: 1em 1em;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+}
+
+
+
+/*---------FOOTER-----------*/
+
+footer{
+    height: 5em;
+    text-align: center;
+    box-shadow: #d8d8d8 0 0 15px;
+    align-content: center;
+    width: 100%;
+    background-color: var(--fontColor);
+    color: white;
+    margin-top: auto;
+}
+
+/*---------INDEX------------*/
+
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    text-align: center;
+    gap: 3em;
+}
+
+.home-text {
+    max-width: 800px;
+    background: var(--cardBg);
+    padding: 2em;
+    border-radius: 20px;
+    box-shadow: #d8d8d8 5px 5px 15px;
+    backdrop-filter: blur(5px);
+}
+
+.home-text h1 {
+    color: var(--fontColor);
+    margin-bottom: 0.5em;
+    font-size: 2.5em;
+}
+
+.home-text p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: var(--fontColor);
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    width: 100%;
+}
+
+.home-button {
+    display: inline-block;
+    color: var(--fontColor);
+    text-decoration: none;
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.home-button:hover {
+    background-color: white;
+    color: var(--fontColor);
+    cursor: pointer;
+}
+
+
+/*---------ALAPOK-----------*/
+
+#basics-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    padding: 1em;
+}
+
+.basics-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3em;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 2em;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.basics-image {
+    flex: 1;
+    width: 90%;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: #d8d8d8 0 0 5px;
+}
+
+.basics-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.basics-text {
+    flex: 1;
+    color: var(--fontColor);
+}
+
+.basics-text h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: var(--fontColor);
+    border-bottom: 2px solid var(--fontColor);
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.basics-text p {
+    line-height: 1.6;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+@media (max-width: 48em){
+    .basics-text h2{
+        font-size: 1em;
+    }
+    .bascics-text{
+        font-size: 0.6em;
+    }
+}
+
+
+/* --------KÁRTYÁK---------- */
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    justify-content: space-evenly;
+    padding: 2em;
+}
+
+.card {
+    width: 32%;
+    border-radius: 12px;
+    background: var(--cardBg);
+    height: 20em;
+    position: relative;
+    min-width: 300px;
+    font-size: 14px;
+    box-shadow: #d8d8d8 5px 5px 10px;
+}
+
+.card:hover{
+    box-shadow: #d8d8d8 10px 10px 10px;
+    scale: 1.01;
+    transition: scale 0.1s linear;
+
+}
+
+
+
+
+.card-body {
+    display: flex;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    right: 1em;
+    bottom: 1em;
+}
+
+.card img {
+    height: 100%;
+    max-width: 40%;
+    object-fit: cover;
+    border-radius: 10px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+
+}
+
+.card img:hover{
+    object-fit: contain;
+    width: calc(100%+2em);
+    height: calc(100%+2em);
+    border-radius: 10px;
+    max-width: 100%;
+    z-index: 10;
+    position: absolute;
+
+}
+
+
+
+.card .card-title{
+    text-align: center;
+    margin-left: 50%;
+    line-height: 1.5;
+}
+
+
+.card-text p{
+    margin-top: 1.5em;
+    color: var(--fontColor);
+    width: 100%;
+    max-height: 80%;
+    text-align: left;
+    padding-left: 1em;
+}
+
+.card-text{
+    top: 15%;
+    left: 40%;
+    position: absolute;
+}
+
+
+@media (max-width:48em){
+    #cards{
+        justify-content:center;
+    }
+}
+
+/*---QUIZ---*/
+
+
+#quiz-container{
+    position: relative;
+    margin-top: 15vh;
+    margin-bottom: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75vw;
+    height: 75vh;
+    min-height: 35em;
+
+    background-color: var(--cardBg);
+    border-radius: 20px;
+    box-shadow: #d8d8d8 0 0 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+
+    
+
+}
+
+#quiz-title{
+    position: relative;
+    text-align: center;
+    margin-top: 1em;
+    align-items: center;
+}
+
+#quiz-body{
+    display: flex;
+    flex: 1;
+    min-height: 0;
+    width: 100%;
+    align-items: center;
+}
+
+#quiz-body h1{
+    margin: auto;
+}
+
+#img-container{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 1em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#quiz-img{
+    border-radius: 12px;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 100%;
+    height: calc(50vh);
+    max-height: 100%;
+    object-fit: contain;
+    position: relative;
+
+}
+
+#quiz-answers{
+    margin-top: 2em;
+    margin-left: 2em;
+    width: 50%;
+    margin-right: 2em;
+
+
+}
+
+#ans-items{
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: auto;
+}
+
+.ans-item{
+    padding: 15px;
+    margin: 10px auto;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: #d8d8d8 5px 5px 10px;
+}
+
+.ans-item:hover{
+    box-shadow: #d8d8d8 10px 10px 10px;
+}
+
+#next-button{
+
+    margin: 2em auto;
+    display: flex;
+}
+
+#counter{
+    margin-right: 1em;
+}
+
+
+@media (max-width: 48em) {
+    #quiz-container{
+        width: 90vw;
+    }
+
+    #quiz-body{
+        display: flex;
+        flex: 1;
+        min-height: 0;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #quiz-answers{
+        margin-left: 2em;
+        width: 50%;
+        margin-right: 2em;
+        margin-top: 0;
+    }
+
+    #quiz-img{
+        display: block;
+    }
+
+    h1{
+        font-size: small;
+    }
+    h2{
+        font-size: smaller;
+    }
+    h3{
+        font-size:x-small;
+    }
+
+    #ans-items{
+        list-style-type: none;
+        padding: 0 2vw;
+        margin: auto;
+        font-size: smaller;
+    }
+
+    .ans-item{
+        padding: 10px;
+        margin: 10px auto;
+        width: 100%;
+        border-radius: 10px;
+        min-width: fit-content;
+    }
+
+    #next-button{
+        margin: 1em auto;
+        display: flex;
+    }
+
+
+    #img-container{
+        height: auto;
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        padding: 1em;
+    }
+    
+}
+
+
+/*--- FORM ----*/
+
+
+form{
+    text-align: center;
+    margin-top: 15vh;
+    box-shadow: #d8d8d8 0 0 10px;
+    border-radius: 12px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+}
+
+#formTitle{
+    margin: 2em 0;
+    display: inline-block;
+
+}
+
+.formInput{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    text-align: left;
+    margin: 0 auto 2em auto;
+}
+
+form span{
+    color: red;
+    margin-top: 0.2em;
+}
+
+
+.radio-options{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+}
+
+#submitBtn{
+    margin-bottom: 2em;
+}
+
+@media (max-width: 48em){
+    form{
+        width: 90%;
+    }
+
+    .formInput{
+        width: 85%;
+    }
+}
+
+@media (max-width: 60em){
+    form{
+        width: 90%;
+    }
+
+    .formInput{
+        width: 85%;
+    }
+}

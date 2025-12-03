@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Csécsényi Marcell">
+    <meta name="description" content="Találtál egy új 'metát' vagy jellegzetességet? Küldd be a GeoHelpr adatbázisába, és segítsd a magyar GeoGuessr közösség fejlődését saját felfedezéseiddel!">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" type="image/x-icon" href="/source/img/logo2.png">
+    <script src="/script/script.js" defer></script>
+    <title>GeoHelpr - Meta Beküldés</title>
+</head>
+
+<body>
+
+    <header id="navbar-placeholder"></header>
+
+    <form name="newMeta" id="newMeta">
+
+        <div id="formTitle">
+            <h1>Meta beküldés</h1>
+            <h3>Új metát fedezdtél fel? Küldd el nekünk!</h3>
+        </div>
+
+        <div class="formInput">
+            <label for="metaName">Meta megnevezése</label>
+            <input type="text" name="metaName" id="metaName" placeholder="pl. Ghánai szigetelőszalag">
+            <span id="metaError"></span>
+
+        </div>
+        <div class="formInput">
+            <label for="email">E-mail címed</label>
+            <input type="email" name="email" id="email">    
+            <span id="emailError"></span>
+
+        </div>
+        <div class="formInput">
+            <label for="name">Kontinens</label>
+            <select id="region" name="region">
+                <option value="">-- Válassz régiót --</option>
+                <option value="eu">Európa</option>
+                <option value="asia">Ázsia</option>
+                <option value="africa">Afrika</option>
+                <option value="americas">Amerika</option>
+                <option value="oceania">Ausztrália/Óceánia</option>
+
+            </select>  
+            <span id="regionError"></span>
+
+        </div>
+        <div class="formInput">
+            <label>Kategória</label>
+            <div class="radio-options">
+                <label>
+                    <input type="radio" name="category" value="car"> Vezetőoszlop
+                </label>
+                <label>
+                    <input type="radio" name="category" value="car"> Google Autó
+                </label>
+                <label>
+                    <input type="radio" name="category" value="bollard"> Villanyoszlop
+                </label>
+                <label>
+                    <input type="radio" name="category" value="landscape"> Útfestés
+                </label>
+            </div>  
+            <span id="categoryError"></span>
+
+        </div>
+        
+        <div class="formInput">
+            <label for="screenshot">Képernyőkép feltöltése</label>
+            <input type="file" id="screenshot" name="screenshot" accept="image/*">
+            <span id="fileError"></span>
+
+        </div>
+        <div class="formInput">
+            <label for="description">Részletes leírás</label>
+            <textarea id="description" name="description" rows="4"></textarea>
+            <span id="descError"></span>
+
+        </div>
+        <div class="formInput">
+            <label for="terms">
+                <input type="checkbox" id="terms" name="terms">
+                Kijelentem, hogy az információ a legjobb tudásom szerint valós.
+            </label>
+            <span id="termsError"></span>
+        </div>
+
+        <button type="submit" id="submitBtn">Beküldés</button>
+
+
+    </form>
+
+
+    <footer id="footer-placeholder"></footer>
+
+</body>
+</html>
