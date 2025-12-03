@@ -1,0 +1,224 @@
+[
+    {
+        "Country": "Tajvan",
+        "Notes": "Hengeres oszlopok, amelyek alsó részén átlós fekete-sárga csíkozás fut egészen a földig.",
+        "Image": "TW.jpg",
+        "CountryCode": "TW"
+    },
+    {
+        "Country": "Indonézia",
+        "Notes": "Az oszlopok alsó részén néha az indonéz zászló színei (piros-fehér) láthatók. A Kis-Szunda-szigeteken az oszlopok felismerhetők egy vagy két hosszú támasztógerendáról. A legtöbb oszlopon három felfelé néző szigetelő (hagyma) van, a tetejük lehet egyenes vagy egyenetlen.",
+        "Image": "ID.jpg",
+        "CountryCode": "ID"
+    },
+    {
+        "Country": "Lengyelország",
+        "Notes": "Lyukacsos beton oszlopok. Megkülönböztethetők a magyar és román oszlopoktól, mivel a lyukak nem érnek le a földig – kb. fél méterrel a talaj felett megállnak.",
+        "Image": "PL.jpg",
+        "CountryCode": "PL"
+    },
+    {
+        "Country": "Thaiföld",
+        "Notes": "Az oszlopokon kicsi, függőlegesen futó lyukak találhatók. Az utcai lámpák alján gyakran fekete-piros vagy fekete-fehér festés látható.",
+        "Image": "TH.png",
+        "CountryCode": "TH"
+    },
+    {
+        "Country": "Románia",
+        "Notes": "A lyukacsos oszlopok alja gyakran fehérre van festve, és/vagy sárga jelölés található rajtuk. A lyukak leérnek a földig.",
+        "Image": "RO.jpg",
+        "CountryCode": "RO"
+    },
+    {
+        "Country": "Dél-Korea",
+        "Notes": "Átlós sárga-fekete csíkozás, amely nem ér le a földig. Sok oszlop tetején egy hosszú, hegyes, felfelé nyúló fém tüske látható.",
+        "Image": "KR.jpg",
+        "CountryCode": "KR"
+    },
+    {
+        "Country": "Mexikó",
+        "Notes": "Gyakoriak a nyolcszögletű beton oszlopok, valamint a kereszt alakú (feszület) oszlopok.",
+        "Image": "MX.png",
+        "CountryCode": "MX"
+    },
+    {
+        "Country": "Belgium",
+        "Notes": "A leggyakoribb típus négyzet alakú és kis lyukakkal rendelkezik, hasonlóan a thai oszlopokhoz.",
+        "Image": "BE.jpg",
+        "CountryCode": "BE"
+    },
+    {
+        "Country": "Chile",
+        "Notes": "Négyzetes beton oszlopok mindkét oldalon mélyedésekkel. Hasonlítanak a brazilra, de kevesebb a vízszintes támaszték a mélyedésben. A felső részen gyakran apró tűszúrás-szerű lyukak vannak.",
+        "Image": "CL.jpg",
+        "CountryCode": "CL"
+    },
+    {
+        "Country": "Izrael",
+        "Notes": "Az utcai lámpák alján gyakran fekete-fehér csíkozás található.",
+        "Image": "IL.jpg",
+        "CountryCode": "IL"
+    },
+    {
+        "Country": "Nigéria",
+        "Notes": "Sok létra-stílusú (mászható mélyedésekkel ellátott) oszlop.",
+        "Image": "NG.jpg",
+        "CountryCode": "NG"
+    },
+    {
+        "Country": "Tunézia",
+        "Notes": "Leggyakrabban fém, drótvázas szerkezetű oszlopokat használnak.",
+        "Image": "TN.jpg",
+        "CountryCode": "TN"
+    },
+    {
+        "Country": "Ausztrália",
+        "Notes": "Északi terület: fém oszlopok lyukakkal. Dél-Ausztrália: Stobie-oszlopok (két acélsín között beton). Tasmánia: olívazöld fém burkolat az oszlopon kb. 2 méter magasságban.",
+        "Image": "AU.jpg",
+        "CountryCode": "AU"
+    },
+    {
+        "Country": "Malajzia",
+        "Notes": "A szárazföldi részen az oszlopokon gyakran fekete téglalapok vannak fehér felirattal.",
+        "Image": "MY.jpg",
+        "CountryCode": "MY"
+    },
+    {
+        "Country": "Peru",
+        "Notes": "Az oszlopoknak gyakran három, oldalra kinyúló karja van.",
+        "Image": "PE.jpg",
+        "CountryCode": "PE"
+    },
+    {
+        "Country": "Szenegál",
+        "Notes": "Volt francia gyarmatként ugyanazokat a létra-stílusú oszlopokat használják, mint Franciaország egyes részein.",
+        "Image": "SN.png",
+        "CountryCode": "SN"
+    },
+    {
+        "Country": "Új-Zéland",
+        "Notes": "A legtöbb oszlopon egyetlen fémlemez (általában ezüst vagy fehér) van körbetekerve (oposszum-védő).",
+        "Image": "NZ.jpg",
+        "CountryCode": "NZ"
+    },
+    {
+        "Country": "Ukrajna",
+        "Notes": "Sok oszlop alsó része fehérre van festve.",
+        "Image": "UA.jpg",
+        "CountryCode": "UA"
+    },
+    {
+        "Country": "Japán",
+        "Notes": "Egyedi függőleges sárga-fekete csíkozás. A régió meghatározásához a legjobb módszer az oszlopokon lévő kis táblák (területi kódok) vizsgálata.",
+        "Image": "JP.jpg",
+        "CountryCode": "JP"
+    },
+    {
+        "Country": "Argentína",
+        "Notes": "Kerek beton oszlopok három vezetékkel, váltakozó elrendezésben. A dupla oszlopok is jó nyomot jelentenek.",
+        "Image": "AR.jpg",
+        "CountryCode": "AR"
+    },
+    {
+        "Country": "Brazília",
+        "Notes": "Létra-stílusú oszlopok (téglalap alakú, vízszintes mélyedésekkel az alján), a tetejük közelében kis lyukakkal.",
+        "Image": "BR.jpg",
+        "CountryCode": "BR"
+    },
+    {
+        "Country": "Guam",
+        "Notes": "Nagy, nyolcszögletű beton oszlopok (szemben az Északi-Mariana-szigetekkel, ahol általában fa oszlopok vannak).",
+        "Image": "GU.jpg",
+        "CountryCode": "GU"
+    },
+    {
+        "Country": "Magyarország",
+        "Notes": "Beton oszlopok nagy lyukakkal, amelyek egészen a földig érnek.",
+        "Image": "HU.jpg",
+        "CountryCode": "HU"
+    },
+    {
+        "Country": "Spanyolország",
+        "Notes": "Sokféle oszlop, a létra-stílusú az egyik leggyakoribb.",
+        "Image": "ES.jpg",
+        "CountryCode": "ES"
+    },
+    {
+        "Country": "Kolumbia",
+        "Notes": "Gyakran sárga-fekete csíkok az oszlopokon. Mexikó és Ecuador mellett itt is előfordulnak nyolcszögletű oszlopok.",
+        "Image": "CO.jpg",
+        "CountryCode": "CO"
+    },
+    {
+        "Country": "Kambodzsa",
+        "Notes": "Két gyakori típus: 1. Négyzetes létra-oszlop (a mélyedések nem érnek végig). 2. Kerek oszlop kis lyukakkal.",
+        "Image": "KH.jpg",
+        "CountryCode": "KH"
+    },
+    {
+        "Country": "Észak-Macedónia",
+        "Notes": "Az oszlopokon gyakran jellegzetes lámpatestek találhatók.",
+        "Image": "MK.jpg",
+        "CountryCode": "MK"
+    },
+    {
+        "Country": "Srí Lanka",
+        "Notes": "Két gyakori típus: 1. Lyukacsos oszlop, ahol a lyukak az alsó részen vannak. 2. Oszlop kis lyukakkal a felső részen.",
+        "Image": "LK.jpg",
+        "CountryCode": "LK"
+    },
+    {
+        "Country": "Szváziföld (Eswatini)",
+        "Notes": "Leggyakoribb a fa oszlop három szigetelővel az oldalán, egyszerű kialakítással.",
+        "Image": "SZ.jpg",
+        "CountryCode": "SZ"
+    },
+    {
+        "Country": "Ecuador",
+        "Notes": "Általában kerek beton oszlopok, de létezik egy egyedi 'létra-oszlop' típus sűrű, lépcsőfokszerű mélyedésekkel.",
+        "Image": "EC.png",
+        "CountryCode": "EC"
+    },
+    {
+        "Country": "Curaçao",
+        "Notes": "Az oszlopok alapja gyakran fehérre van festve.",
+        "Image": "CW.jpg",
+        "CountryCode": "CW"
+    },
+    {
+        "Country": "Uruguay",
+        "Notes": "A leggyakoribb típus három felfelé néző izzóval/szigetelővel rendelkezik, ami szigony alakot kölcsönöz neki.",
+        "Image": "UY.jpg",
+        "CountryCode": "UY"
+    },
+    {
+        "Country": "Fülöp-szigetek",
+        "Notes": "A leggyakoribb a fa, kereszt (feszület) alakú oszlop.",
+        "Image": "PH.jpg",
+        "CountryCode": "PH"
+    },
+    {
+        "Country": "Törökország",
+        "Notes": "Fém oszlopok nagy lyukakkal (különböznek a román/magyar beton oszlopoktól).",
+        "Image": "TR.jpg",
+        "CountryCode": "TR"
+    },
+    {
+        "Country": "Laosz",
+        "Notes": "Aszimmetrikus oszlopok: két 'fenyőtoboz' (szigetelő) az egyik oldalon, egy a másikon. Gyakran kis lyukakkal (mint Thaiföldön).",
+        "Image": "LA.jpg",
+        "CountryCode": "LA"
+    },
+    {
+        "Country": "Franciaország",
+        "Notes": "Beton oszlopok lyukak nélkül, helyette mélyedésekkel.",
+        "Image": "FR.jpg",
+        "CountryCode": "FR"
+    },
+    {
+        "Country": "Bulgária",
+        "Notes": "Eiffel-torony szerű rácsos oszlopok gyakoriak.",
+        "Image": "BG.jpg",
+        "CountryCode": "BG"
+    }
+]

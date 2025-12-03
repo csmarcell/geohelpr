@@ -1,0 +1,296 @@
+[
+    {
+        "Country": "Albánia",
+        "Notes": "Fehér oszlop, körben fekete tetővel, piros téglalappal az elején, fehér téglalappal a hátulján. Különbözik sok másiktól abban, hogy a fekete sáv a tetején van, nem pedig csak a teteje közelében. Az oszlopok Albániában általában ritkának tűnnek.",
+        "Image": "AL.png",
+        "CountryCode": "AL"
+    },
+    {
+        "Country": "Andorra",
+        "Notes": "Nemzeti utak (havas körülmények-hegyek). Különböző formák (fa, műanyag, hosszú vagy rövid) és színek (zöld, fehér, piros, sárga), de nagyon specifikus Andorrára. Magasság > 1m.",
+        "Image": "AD.png",
+        "CountryCode": "AD"
+    },
+    {
+        "Country": "Ausztrália",
+        "Notes": "Fehér oszlop, kis piros téglalap a teteje közelében, hátul teljesen fehér. Tasmániában is használják.",
+        "Image": "AU.png",
+        "CountryCode": "AU"
+    },
+    {
+        "Country": "Ausztria",
+        "Notes": "Fehér oszlop, fekete tetővel és fekete függőleges csíkkal a felső harmadban.",
+        "Image": "AT.png",
+        "CountryCode": "AT"
+    },
+    {
+        "Country": "Belgium",
+        "Notes": "Fehér oszlop, sárga téglalap a tetején.",
+        "Image": "BE.png",
+        "CountryCode": "BE"
+    },
+    {
+        "Country": "Bulgária",
+        "Notes": "Fehér oszlop, fekete vízszintes sáv, benne 1 függőleges piros téglalappal.",
+        "Image": "BG.png",
+        "CountryCode": "BG"
+    },
+    {
+        "Country": "Kambodzsa",
+        "Notes": "Nagyon ritka, azt hiszem.",
+        "Image": "KH.png",
+        "CountryCode": "KH"
+    },
+    {
+        "Country": "Kanári-szigetek",
+        "Notes": "Fehér oszlop, fekete sáv a tetején, benne piros (azt hiszem, talán narancssárga) téglalappal.",
+        "Image": "IC.png",
+        "CountryCode": "IC"
+    },
+    {
+        "Country": "Karácsony-sziget",
+        "Notes": "Azt hiszem, ezek fehérek szürke függőleges téglalappal a teteje közelében, de a színezés egy kicsit eltérő volt.",
+        "Image": "CX.png",
+        "CountryCode": "CX"
+    },
+    {
+        "Country": "Kolumbia",
+        "Notes": null,
+        "Image": "CO.png",
+        "CountryCode": "CO"
+    },
+    {
+        "Country": "Horvátország",
+        "Notes": "Bár sokban hasonlít a fehér-fekete-piros kombinációra, ezek úgy tűnik, azonosak az Észak-Macedóniában találhatóakkal.",
+        "Image": "HR.png",
+        "CountryCode": "HR"
+    },
+    {
+        "Country": "Csehország",
+        "Notes": "Fehér oszlop, fekete vízszintes sáv, benne 2 vízszintes narancssárga téglalappal. Az út jobb oldalán.",
+        "Image": "CZ.png",
+        "CountryCode": "CZ"
+    },
+    {
+        "Country": "Dánia",
+        "Notes": "Fehér oszlop, sárga téglalap a teteje közelében, neon narancssárga szegély a teteje közelében.",
+        "Image": "DK.png",
+        "CountryCode": "DK"
+    },
+    {
+        "Country": "Észtország",
+        "Notes": "Fehér, átlós fekete csíkkal a teteje közelében, fehér/sárga függőleges téglalappal a teteje közelében.",
+        "Image": "EE.png",
+        "CountryCode": "EE"
+    },
+    {
+        "Country": "Feröer-szigetek",
+        "Notes": "Félig sárga, félig piros, sárga téglalappal a tetején.",
+        "Image": "FO.png",
+        "CountryCode": "FO"
+    },
+    {
+        "Country": "Finnország",
+        "Notes": "Sajnos majdnem teljesen azonos az észttel.",
+        "Image": "FI.png",
+        "CountryCode": "FI"
+    },
+    {
+        "Country": "Franciaország",
+        "Notes": "Íves oszlopok. Fehér, szürke sávval a teteje közelében. Piros \"kalap\" a tetején havas régiókban (pl. Alpok).",
+        "Image": "FR.png",
+        "CountryCode": "FR"
+    },
+    {
+        "Country": "Görögország",
+        "Notes": "Fehér oszlop, átlós fekete sáv a teteje közelében, függőleges piros téglalap a fekete sávban. Lehet, hogy véletlen, de az oszlopok Görögországban ritkának tűnnek.",
+        "Image": "GR.png",
+        "CountryCode": "GR"
+    },
+    {
+        "Country": "Magyarország",
+        "Notes": "Úgy tűnik, azonosak a Horvátországban és Észak-Macedóniában találhatóakkal.",
+        "Image": "HU.png",
+        "CountryCode": "HU"
+    },
+    {
+        "Country": "Izland",
+        "Notes": "Sárga.",
+        "Image": "IS.png",
+        "CountryCode": "IS"
+    },
+    {
+        "Country": "Indonézia",
+        "Notes": "Sárga-fekete csíkos, piros téglalappal a felső részen.",
+        "Image": "ID.png",
+        "CountryCode": "ID"
+    },
+    {
+        "Country": "Írország",
+        "Notes": "Inkább hengeres oszlop, zöld, 2 fehér vízszintes csíkkal.",
+        "Image": "IE.png",
+        "CountryCode": "IE"
+    },
+    {
+        "Country": "Man-sziget",
+        "Notes": "Fekete a tetején és az alján, fehér középen. Piros téglalap, ha a bal oldalon van, fehér téglalap, ha a jobb oldalon.",
+        "Image": "IM.png",
+        "CountryCode": "IM"
+    },
+    {
+        "Country": "Olaszország",
+        "Notes": "Fehér oszlop, fekete tető, piros csík a fekete tetőben.",
+        "Image": "IT.png",
+        "CountryCode": "IT"
+    },
+    {
+        "Country": "Japán",
+        "Notes": "Fehér kör a felső elején, sárga kör a felső hátulján. Okinawán is találtam.",
+        "Image": "JP.png",
+        "CountryCode": "JP"
+    },
+    {
+        "Country": "Kirgizisztán",
+        "Notes": "Fehér, fekete átlós csíkkal a felső felében. / Fehér oszlop, piros tetővel, helyi írással az oldalán.",
+        "Image": "KG.png",
+        "CountryCode": "KG"
+    },
+    {
+        "Country": "Lettország",
+        "Notes": "Fehér, átlós fekete csíkkal a teteje közelében, fehér függőleges téglalappal a teteje közelében.",
+        "Image": "LV.png",
+        "CountryCode": "LV"
+    },
+    {
+        "Country": "Litvánia",
+        "Notes": "Fehér oszlop, körben fekete vízszintes sávval, narancssárga függőleges téglalappal az elején, fehér függőleges téglalappal a hátulján.",
+        "Image": "LT.png",
+        "CountryCode": "LT"
+    },
+    {
+        "Country": "Luxemburg",
+        "Notes": "Fehér oszlop, fekete vízszintes sáv, benne 1 függőleges szürke téglalappal. Megfigyelhető, hogy némelyiken kis piros függőleges téglalap lehet az oszlop külső szélén. Ez jelezheti, hogy közel van egy kanyarhoz az úton.",
+        "Image": "LU.png",
+        "CountryCode": "LU"
+    },
+    {
+        "Country": "Mongólia",
+        "Notes": "Fehér, két piros csíkkal a felső felében. Máshol az országban nem találtam ilyet. Nem azt mondom, hogy nincsenek ott, de ezek az északnyugati határ közelében voltak.",
+        "Image": "MN.png",
+        "CountryCode": "MN"
+    },
+    {
+        "Country": "Montenegró",
+        "Notes": "Fehér oszlop, fekete sapkával, magas piros függőleges csíkkal az oszlop közepén a fehér részen. A hátoldal teljesen fehér a fekete sapkával.",
+        "Image": "ME.png",
+        "CountryCode": "ME"
+    },
+    {
+        "Country": "Hollandia",
+        "Notes": "Fehér oszlop, piros függőleges csík a teteje közelében.",
+        "Image": "NL.png",
+        "CountryCode": "NL"
+    },
+    {
+        "Country": "Új-Zéland",
+        "Notes": "Fehér oszlop piros csíkkal, amely szinte teljesen körbeér, a csíkot egy hosszú szürke sáv szakítja meg, amely szinte megkülönböztethetetlen a fehértől.",
+        "Image": "NZ.png",
+        "CountryCode": "NZ"
+    },
+    {
+        "Country": "Észak-Macedónia",
+        "Notes": "Fehér oszlop, fekete vízszintes sáv, benne 1 függőleges piros téglalappal.",
+        "Image": "MK.png",
+        "CountryCode": "MK"
+    },
+    {
+        "Country": "Peru",
+        "Notes": "Fekete a tetején, az alján és középen, közte fehér sávokkal. Tudom, technikailag nem oszlop, de segít megkülönböztetni Perut.",
+        "Image": "PE.png",
+        "CountryCode": "PE"
+    },
+    {
+        "Country": "Lengyelország",
+        "Notes": "Fehér piros vízszintes csíkkal és fehér függőleges téglalappal a hátulján. Néhányon számok is vannak, azt hiszem, a kilométert jelzik az úton.",
+        "Image": "PL.png",
+        "CountryCode": "PL"
+    },
+    {
+        "Country": "Portugália",
+        "Notes": "Fekete vízszintes sáv, benne fehér függőleges téglalappal.",
+        "Image": "PT.png",
+        "CountryCode": "PT"
+    },
+    {
+        "Country": "Románia",
+        "Notes": "Inkább kőjelző, piros a tetején és az alján, fehér középen. Az út számával az úthoz legközelebbi oldalon, a tetején lévő számok talán kilométerjelzők.",
+        "Image": "RO.png",
+        "CountryCode": "RO"
+    },
+    {
+        "Country": "Oroszország",
+        "Notes": "Fehér oszlop, fekete vízszintes sáv, benne 1 függőleges piros téglalappal. Úgy tűnik, csak kereszteződések közelében vannak jelen. Továbbá, ha jobban megnézzük, van egy vékony fő tartóoszlop, és a szélesebb zászlós rész. Ugyanilyen kialakítású oszlopuk van máshol is, de a tipikus európai tábla vastagsággal, a Szahalin területen található.",
+        "Image": "RU.png",
+        "CountryCode": "RU"
+    },
+    {
+        "Country": "Szerbia",
+        "Notes": "Fehér oszlop, fekete csík, piros függőleges téglalap a fekete csík bal oldalán az elején, fehér függőleges téglalap a hátul közepén.",
+        "Image": "RS.png",
+        "CountryCode": "RS"
+    },
+    {
+        "Country": "Szlovákia",
+        "Notes": "Fehér oszlop körben fekete vízszintes sávval, dupla piros téglalappal az elején, szimpla szürkével a hátulján.",
+        "Image": "SK.png",
+        "CountryCode": "SK"
+    },
+    {
+        "Country": "Szlovénia",
+        "Notes": "Fehér oszlop, fekete tető, piros függőleges csík a felső harmadban. Hasonló, de nem azonos Montenegróval.",
+        "Image": "SI.png",
+        "CountryCode": "SI"
+    },
+    {
+        "Country": "Spanyolország",
+        "Notes": "Fekete vízszintes sáv, benne sárga függőleges téglalappal.",
+        "Image": "ES.png",
+        "CountryCode": "ES"
+    },
+    {
+        "Country": "Srí Lanka",
+        "Notes": "Folyóátkelő oszlopok. (kis fehér, fekete alappal, egy kis falat vesz körül)",
+        "Image": "LK.png",
+        "CountryCode": "LK"
+    },
+    {
+        "Country": "Svédország",
+        "Notes": "Fehér oszlop, fekete csík, fehér függőleges csík a feketében.",
+        "Image": "SE.png",
+        "CountryCode": "SE"
+    },
+    {
+        "Country": "Svájc",
+        "Notes": "Fehér oszlop, körben vízszintes fekete sávval, zömök fehér téglalappal az elején. / Fehér hengeres oszlop két vízszintes piros csíkkal a tetején.",
+        "Image": "CH.png",
+        "CountryCode": "CH"
+    },
+    {
+        "Country": "Törökország",
+        "Notes": "Fehér oszlop, piros függőleges téglalap a teteje közelében.",
+        "Image": "TR.png",
+        "CountryCode": "TR"
+    },
+    {
+        "Country": "Ukrajna",
+        "Notes": "Fehér oszlop, széles fekete sáv a felső felében.",
+        "Image": "UA.png",
+        "CountryCode": "UA"
+    },
+    {
+        "Country": "Egyesült Királyság",
+        "Notes": "Azt hiszem, ezek elég ritkák az Egyesült Királyságban. Csak éles kanyarban láttam őket. Találkoztam velük Mull szigetén is.",
+        "Image": "GB.png",
+        "CountryCode": "GB"
+    }
+]
